@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rising energy prices put AI and data centers in the crosshairs</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .meta {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            padding: 20px 40px;
+            background: #f8f9fa;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .meta-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .meta-label {
+            font-size: 0.9em;
+            color: #6c757d;
+            margin-bottom: 5px;
+        }
+
+        .meta-value {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .score {
+            font-size: 1.5em;
+            color: #ffc107;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .summary {
+            background: #e7f3ff;
+            border-left: 4px solid #667eea;
+            padding: 15px;
+            margin-bottom: 30px;
+            border-radius: 5px;
+        }
+
+        .summary-title {
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+
+        .article-content {
+            line-height: 1.8;
+            color: #444;
+        }
+
+        .article-content p {
+            margin-bottom: 15px;
+        }
+
+        .article-content h2 {
+            font-size: 1.5em;
+            margin: 30px 0 15px 0;
+            color: #667eea;
+        }
+
+        .article-content h3 {
+            font-size: 1.2em;
+            margin: 20px 0 10px 0;
+            color: #764ba2;
+        }
+
+        .article-content pre {
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 5px;
+            padding: 15px;
+            overflow-x: auto;
+            margin: 15px 0;
+        }
+
+        .article-content code {
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+
+        .article-content a {
+            color: #667eea;
+            text-decoration: none;
+            border-bottom: 1px solid #667eea;
+        }
+
+        .article-content a:hover {
+            background: #667eea;
+            color: white;
+            padding: 0 2px;
+        }
+
+        .source {
+            background: #f0f8ff;
+            border: 1px solid #b3d9ff;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 30px 0 0 0;
+        }
+
+        .source-title {
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 8px;
+        }
+
+        .source-link {
+            word-break: break-all;
+        }
+
+        .footer {
+            background: #f8f9fa;
+            padding: 20px 40px;
+            border-top: 1px solid #e9ecef;
+            font-size: 0.9em;
+            color: #6c757d;
+            text-align: center;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #667eea;
+            text-decoration: none;
+            border-bottom: 1px solid #667eea;
+        }
+
+        .back-link:hover {
+            background: #667eea;
+            color: white;
+            padding: 0 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Rising energy prices put AI and data centers in the crosshairs</h1>
+        </div>
+
+        <div class="meta">
+            <div class="meta-item">
+                <div class="meta-label">评分</div>
+                <div class="meta-value score">⭐⭐⭐ 55.0/100</div>
+            </div>
+            <div class="meta-item">
+                <div class="meta-label">分类</div>
+                <div class="meta-value">infrastructure</div>
+            </div>
+            <div class="meta-item">
+                <div class="meta-label">作者</div>
+                <div class="meta-value">Tim De Chant</div>
+            </div>
+            <div class="meta-item">
+                <div class="meta-label">发布时间</div>
+                <div class="meta-value">2025-11-02 21:37</div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="summary">
+                <div class="summary-title">📌 内容摘要</div>
+                <p>随着能源价格的持续上涨，数据中心和AI基础设施正面临新的挑战。大多数消费者担心数据中心的耗电量会进一步推高电价，这可能引发公众的反对情绪。当前的数据中心不仅是AI技术发展的核心支柱，同时也是能源消耗的主要来源之一。技术决策者和AI从业者需关注这一趋势，以确保基础设施的可持续发展和公众接受度。能源效率的提升和可再生能源的使用将成为关键策略，以缓解对电网的压力和降低运营成本。行业需要通过技术创新和政策调整来应对潜在的社会和经济影响，确保AI技术的长期发展和应用。</p>
+            </div>
+
+            <div class="article-content">
+                A majority of consumers say they’re worried about data centers driving up electricity costs. Is the industry prepared for a possible backlash?
+            </div>
+
+            <div class="source">
+                <div class="source-title">📚 原文链接</div>
+                <div class="source-link"><a href="https://techcrunch.com/2025/11/01/rising-energy-prices-put-ai-and-data-centers-in-the-crosshairs/" target="_blank">https://techcrunch.com/2025/11/01/rising-energy-prices-put-ai-and-data-centers-in-the-crosshairs/</a></div>
+            </div>
+
+            <a href="../index.html" class="back-link">← 返回首页</a>
+        </div>
+
+        <div class="footer">
+            <p>由 DeepDive Tracking 生成 | 2025-11-02 21:37:21</p>
+        </div>
+    </div>
+</body>
+</html>
