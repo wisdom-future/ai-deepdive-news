@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeepDive AI Daily - 每日精选归档</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            font-size: 3em;
+            margin-bottom: 15px;
+            text-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.95;
+        }
+
+        .digests-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .digest-item {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .digest-item:hover {
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+            transform: translateY(-4px);
+        }
+
+        .digest-item a {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 25px 30px;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .digest-item .date {
+            font-size: 1.1em;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .digest-item .arrow {
+            font-size: 1.5em;
+            color: #667eea;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📰 DeepDive AI Daily</h1>
+            <p>AI领域每日精选资讯归档</p>
+        </div>
+
+        <div class="digests-grid">
+            
+        <div class="digest-item">
+            <a href="digests/2025-11-08.html">
+                <span class="date">📅 2025-11-08</span>
+                <span class="arrow">→</span>
+            </a>
+        </div>
+        
+        </div>
+    </div>
+</body>
+</html>
